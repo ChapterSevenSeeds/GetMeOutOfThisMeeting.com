@@ -1,20 +1,13 @@
 body,html {
-    margin: 0;
+    height: 100vh;
+    margin: 0 50px;
     padding: 0;
-    overflow: hidden;
-}
-
-#main {
-    font-size: 72px;
-    height: 100vh; 
-    display: flex; 
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
-    overflow: hidden;
 }
 
 #text {
-    margin: 50px;
+    font-size: 72px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
